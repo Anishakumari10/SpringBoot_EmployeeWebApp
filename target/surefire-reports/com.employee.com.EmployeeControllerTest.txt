@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.employee.com.EmployeeControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.467 s <<< FAILURE! - in com.employee.com.EmployeeControllerTest
+unnecessary Mockito stubbings(com.employee.com.EmployeeControllerTest)  Time elapsed: 0.022 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected in test class: EmployeeControllerTest
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at com.employee.com.EmployeeControllerTest.testCreateEmp(EmployeeControllerTest.java:48)
+  2. -> at com.employee.com.EmployeeControllerTest.testfindall(EmployeeControllerTest.java:41)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+

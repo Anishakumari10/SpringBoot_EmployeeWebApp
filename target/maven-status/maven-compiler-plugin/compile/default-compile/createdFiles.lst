@@ -1,0 +1,5 @@
+com\employee\com\entities\Employee.class
+com\employee\com\entities\repository\EmployeeRepository.class
+com\employee\com\entities\service\EmployeeService.class
+com\employee\com\entities\controller\EmpController.class
+com\employee\com\EmployeeApplication.class

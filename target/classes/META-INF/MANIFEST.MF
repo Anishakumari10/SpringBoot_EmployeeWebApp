@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Anil Kumar
+Build-Jdk: 13.0.2
+Implementation-Title: Employee
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.employee
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/Spring_Employee
+Created-By: Maven Integration for Eclipse
+
